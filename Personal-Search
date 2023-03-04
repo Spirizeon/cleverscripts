@@ -1,0 +1,37 @@
+# Host your own search-engine
+
+CAUTION! This isn't about making your own search engine from scratch but hosting one from pre-existing open sourced code of [SearXNG](https://github.com/searxng/searxng)
+
+## What is SearXNG?
+SearXNG is a free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.
+
+## Requirements
+- Linux Environment
+- Docker-Compose
+- Internet connection
+
+## Getting started 
+copy the script below into a bash file or directly into your terminal
+
+### Debian/Ubuntu based installations
+
+```bash
+sudo apt install docker-compose 
+cd $HOME
+cd /usr/local/searxng-docker
+```
+If you're on a cloud server, do open the `.env`file and replace the `HOST-NAME  `with your machine's domain name.
+
+Once you're done. Here's the last line to finish.
+```bash
+sudo docker-compose up -d 
+```
+this will start your search engine, if you're doing this on your own machine, go to ```localhost``` on your browser and check it out.
+
+to put it down once you're done playing, type this.
+```bash
+sudo docker-compose down
+```
+
+# Acknowledgement
+[NetworkChuck](https://www.youtube.com/watch?v=ifT6npY39Dw)
