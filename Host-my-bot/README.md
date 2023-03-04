@@ -4,7 +4,7 @@
 Windows executable made for self-hosting the Harleon GPT discord bot. 
 
 
-
+[Download script here](https://github.com/Spirizeon/Harleon/releases/tag/v0.0.1)
 ## Authors
 
 - [@spirizeon](https://github.com/spirizeon)
