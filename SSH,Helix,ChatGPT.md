@@ -2,8 +2,6 @@
 
 Welcome to this new series called the Code Tale, this will be a set of blogs where not one but multiple topics will be discussed. (A.K.A the stuff that i found the coolest so far)
 
-
-
 ## SSH
 
 **SSHP** or Secure Shell Protocol, is a telnet successor that lets you login into the shell of a remote machine and access its file system. One of the only few differences being is that the communication is proofed from man-in-the-middle attacks due to use of encryption. Unlike HTTPS, SSH eliminates the need to transmit sensitive information like passwords over the line. (for example, when accessing git repositories)
@@ -22,13 +20,13 @@ SSH Keys are generated using `ssh-keygen` in the user's computer,  usually the `
 
 The `public key` is sent over to the remote system using **SCP** (Secure Copy Protocol) 
 
-```session```
+```
 scp ~/.ssh/<public_key> user@<server ip>:~/.ssh/<new public_key_name> 
 ```
 
 then, an SSH connection is requested from the user's system to connect to the remote system through the following command: 
 
-```ssh```
+```
 ssh user@<server ip> 
 ```
 
@@ -38,7 +36,7 @@ After your keys are generated, you can just open up github/gitlab/bitbucket or a
 
 Let's assume we're using github here, to clone a repository with push access
 
-```git``` 
+```
 git clone git@github.com:user/repository.git
 ```
 
@@ -70,6 +68,9 @@ It comes with built-in LSP support,fuzzy finder, formatting, and syntax highligh
 ```
 winget install Helix.Helix
 ```
+
+
+
 
 Add the Helix directory to `PATH` Open up a new powershell window
 
