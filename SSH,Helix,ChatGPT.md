@@ -46,8 +46,6 @@ This eliminates the need to open and login into github everytime we are to uploa
 
 ## Helix
 
-![](C:\Users\geniu\AppData\Roaming\marktext\images\2023-05-16-17-14-09-image.png)
-
 Helix is a CLI editor written in Rust. ([Check it out!](https://helix-editor.com/)).
 It comes with built-in LSP support,fuzzy finder, formatting, and syntax highlighting for most languages
 
@@ -102,8 +100,6 @@ The [docs](https://docs.helix-editor.com/) will help on how to configure `langua
 ## ChatGPT in the terminal
 
 [TGPT](https://github.com/aandrew-me/tgpt) a terminal-based app that uses the ChatGPT clone BAI bot's backend to generate text responses to questions. 
-
-![](C:\Users\geniu\AppData\Roaming\marktext\images\2023-05-16-17-15-31-image.png)
 
 You can download the release specific to your OS and then add it to `PATH` along with an alias so that it can be access globally. 
 
