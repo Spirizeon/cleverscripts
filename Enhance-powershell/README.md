@@ -1,4 +1,4 @@
-# FZF and Helix-Editor Scripts
+# Enhance Powershell
 
 ## Description
 
@@ -7,7 +7,7 @@ This repository contains small PowerShell scripts, which enhance your command-li
 ## Scripts
 ### Powershell Config script
 
-In PowerShell, the $PROFILE.ps1 file is a script file that is automatically loaded when PowerShell starts. It allows you to customize your PowerShell environment by defining functions, aliases, variables, and other configurations that are automatically executed upon launching PowerShell.### fzfhelixopener.ps1
+In PowerShell, the $PROFILE.ps1 file is a script file that is automatically loaded when PowerShell starts. It allows you to customize your PowerShell environment by defining functions, aliases, variables, and other configurations that are automatically executed upon launching PowerShell.
 
 ### Pipe FZF path into the Helix-Editor
 The `fzfhelixopener.ps1` script allows you to pipe the output of FZF into the Helix-Editor, enabling you to quickly open and edit files in your preferred text editor. FZF provides an interactive selection interface for filtering and selecting files, while Helix-Editor is a lightweight and versatile text editor.
