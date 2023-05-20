@@ -1,0 +1,3 @@
+$pathstring = fzf
+hx $pathstring
+
