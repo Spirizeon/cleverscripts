@@ -1,3 +1,0 @@
-$pathstring = fzf
-hx $pathstring
-
