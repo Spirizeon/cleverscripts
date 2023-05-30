@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains small PowerShell scripts, which enhance your command-line workflow by seamlessly integrating the powerful tools.
+This repository contains small PowerShell scripts, which enhance your command-line workflow by seamlessly integrating powerful tools into it.
 
 ## Scripts
 ### Powershell Config script
